@@ -107,6 +107,7 @@ var newMyName = myName;
 
 alert(newMyName("Whitney"));
 
+
 //Next problem
 
 
@@ -115,8 +116,18 @@ alert(newMyName("Whitney"));
 
   //Code Here
 
+  var outerFn = function() {
+  	return function() {
+  		return "Whitney";
+  	}
+  }
+
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
 
+  var innerFn = outerFn();
+
 //Now invoke innerFn.
+
+innerFn();
