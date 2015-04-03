@@ -68,7 +68,21 @@ welcome();
 
 
   //Answer Here
+  
+//--- falsy values:
+//--- -- Nan
+//--- -- null
+//--- -- undefined
+//--- -- 0
+//--- -- '' (empty string)
+//--- -- false
 
+//--- To check if something is falsy, the shorthand way to do that is:
+//--- if (!something) {
+//---   return "this is falsy";
+//--- }
+//--- On line 80, the '!' says if 'something' does NOT contain a truthy value, then on 
+//--- line 81, it wil return "this is falsy".
 
 
 //Next Problem
