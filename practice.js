@@ -52,6 +52,13 @@ welcome();
 
   //Answer Here
 
+//--- An argument is used at function invokation, while a parameter is used at function declaration. 
+//--- Essentially, when a function is invoked with an argument, that argument will correspond to 
+//--- the declared function's parameter.
+//--- For example:
+//--- var hello = function(num1, num2) { <--- num1 and num2 on this line are parameters
+//--- }
+//--- hello(2, 5); <--- 2 and 5 on this line are arguments
 
 //Next problem
 
