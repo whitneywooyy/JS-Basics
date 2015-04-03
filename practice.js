@@ -96,7 +96,6 @@ welcome();
 var myName = function(name) {
   	return name;
 }
-// myName("Whitney");
 
 //Now save the function definition of myName into a new variable called newMyName
 
@@ -106,7 +105,7 @@ var newMyName = myName;
 
 //Now alert the result of invoking newMyName
 
-alert(newMyName);
+alert(newMyName("Whitney"));
 
 //Next problem
 
