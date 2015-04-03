@@ -25,7 +25,10 @@ isTyler(name);
 
 
   //Code Here
-
+var getName = function() {
+	return prompt("What's your first name?");
+}
+getName();
 
 //Next Problem
 
